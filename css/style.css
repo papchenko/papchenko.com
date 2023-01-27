@@ -1,0 +1,192 @@
+@import url("reset.css");
+@import url("common.css");
+@import url("header.css");
+@import url("main.css");
+@import url("footer.css");
+:root {
+  --light-blue: #00adb5;
+  --dark-blue: #4682b4;
+  --dark-yellow: #e6840e;
+  --light-white: #eeeeee;
+}
+
+body {
+  font-family: "Poppins", "Helvetica Neue", Helvetica, sans-serif;
+  background-color: #1e2125;
+  color: rgba(238, 238, 238, 0.75);
+  font-size: 1.125rem;
+}
+
+.wrapper {
+  min-height: 100%;
+  overflow: clip;
+  display: flex;
+  flex-direction: column;
+}
+
+[class*=__container] {
+  max-width: 75rem;
+  padding-left: 0.9375rem;
+  padding-right: 0.9375rem;
+  margin: 0 auto;
+}
+
+body._color-mode {
+  background-color: #c9c9c9;
+  color: #121418;
+}
+body._color-mode .title {
+  color: #121418;
+}
+body._color-mode .main__title {
+  color: #121418;
+}
+body._color-mode .menu__link {
+  color: #121418;
+}
+body._color-mode .menu__link:hover {
+  color: var(--dark-yellow);
+}
+body._color-mode .menu__link:not(:last-child) {
+  color: var(--dark-yellow);
+}
+body._color-mode .menu__link:not(:last-child):hover {
+  color: #121418;
+}
+@media (max-width: 767.98px) {
+  body._color-mode .menu__link {
+    color: var(--light-white);
+  }
+}
+body._color-mode .header {
+  border-bottom: 0.0825rem solid rgba(0, 0, 0, 0.1);
+  background-color: rgba(238, 238, 238, var(--opacity));
+}
+body._color-mode .main {
+  border-bottom: 0.0825rem solid rgba(0, 0, 0, 0.1);
+}
+body._color-mode .footer {
+  border-top: 0.0825rem solid rgba(0, 0, 0, 0.1);
+}
+body._color-mode .items-works__item {
+  background-color: rgba(167, 170, 175, 0.2);
+}
+body._color-mode .menu-footer__link_main {
+  background: url(../resources/img/icons/main-light.svg) left no-repeat;
+  background-size: 24px;
+}
+body._color-mode .menu-footer__link_about {
+  background: url(../resources/img/icons/person-light.svg) left no-repeat;
+  background-size: 26px;
+}
+body._color-mode .menu-footer__link_products {
+  background: url(../resources/img/icons/products-light.svg) left no-repeat;
+  background-size: 26px;
+}
+body._color-mode .main__title {
+  color: #121418;
+}
+body._color-mode .main__title span {
+  color: var(--dark-yellow);
+}
+body._color-mode .title span {
+  color: var(--dark-yellow);
+}
+body._color-mode .button {
+  background-color: var(--light-blue);
+}
+body._color-mode .button:hover {
+  background-color: rgba(57, 62, 70, 0.75);
+}
+body._color-mode .button_dark {
+  background-color: rgba(57, 62, 70, 0.75);
+}
+body._color-mode .button_dark:hover,
+body._color-mode .button_dark.active {
+  background-color: var(--light-blue);
+}
+body._color-mode .social__link:hover {
+  background-color: var(--light-blue);
+  transform: scale(1.1);
+}
+body._color-mode .dark__image {
+  display: none;
+}
+body._color-mode .about__text a {
+  color: var(--dark-yellow);
+}
+body._color-mode .menu-footer__link:hover {
+  color: var(--dark-yellow);
+}
+body._color-mode .menu__link::after {
+  content: "";
+  background-color: var(--light-blue);
+}
+body._color-mode .icon-menu__line::before {
+  content: "menu";
+  font-size: 1.15rem;
+  font-weight: 500;
+  letter-spacing: -0.13rem;
+  color: #121418;
+  margin: 0.35rem 0rem 0.1rem -2.7rem;
+}
+body._color-mode .color__mode {
+  background: url(../resources/img/icons/color-light.svg) center no-repeat;
+  background-size: 1.3rem;
+}
+body._color-mode .lang__button {
+  background: url(../resources/img/icons/language-light.svg) center no-repeat;
+  background-size: 1.3rem;
+}
+body._color-mode .color-pc {
+  background: url(../resources/img/icons/color-light.svg) center no-repeat;
+  background-size: 1.8rem;
+}
+body._color-mode .lang__button-pc {
+  background: url(../resources/img/icons/language-light.svg) center no-repeat;
+  background-size: 1.8rem;
+}
+body._color-mode .menu__sub-list {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background-color: rgb(116, 113, 113);
+  padding: 0.9375rem;
+  min-width: 12.5rem;
+}
+body._color-mode a.lang-pc {
+  color: #121418;
+  text-decoration: none;
+  font-weight: 700;
+}
+body._color-mode a.lang-pc:hover {
+  color: var(--dark-yellow);
+}
+body._color-mode .inactive {
+  color: #575151;
+}
+body._color-mode .inactive:hover {
+  color: #575151;
+}
+body._color-mode .menu__link.inactive:hover::after {
+  width: 0;
+  left: 0;
+}
+
+@media (min-width: 767.98px) {
+  .icon-menu__line::before {
+    display: none;
+  }
+}
+@media (max-width: 767.98px) {
+  [data-anim] {
+    transform: translate(0rem, 3.125rem);
+    opacity: 0;
+    transition: all 0.8s;
+  }
+  [data-anim].animation {
+    transform: translate(0, 0);
+    opacity: 1;
+    transition: all 0.8s;
+  }
+}

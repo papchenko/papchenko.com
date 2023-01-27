@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="resources/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="resources/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="resources/favicon/favicon-16x16.png">
+    <link rel="manifest" href="resources/favicon/site.webmanifest">
+    <link rel="mask-icon" href="resources/favicon/safari-pinned-tab.svg" color="#565050">
+    <meta name="msapplication-TileColor" content="#565050">
+    <meta name="theme-color" content="#565050">
+
+    <link href="https://fonts.googleapis.com/css?family=Poppins:regular,500,700&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Play:regular,500,700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css">
+    <title>Portfolio Website</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <!-- header -->
+        <header class="header">
+            <div class="header__container">
+                <a href="" class="header__logo">
+                </a>
+                <a href="lang.html" class="lang__button">
+                    <span></span>
+                </a>
+                <a class="color__mode">
+                    <span></span>
+                </a>
+                <nav class="header__menu menu">
+
+                    <button class="menu__icon icon-menu" type="button">
+                        <span class="icon-menu__line"></span>
+                    </button>
+                    <nav class="menu__body">
+                        <ul class="menu__list">
+
+                            <li><a data-goto=".main" href="#" class="menu__link vibro__button">Main</a></li>
+                            <li><a data-goto=".about" href="#" class="menu__link vibro__button">About Me</a></li>
+                            <li><a data-goto=".works" href="#" class="menu__link vibro__button">Products</a></li>
+                            <li><a data-goto=".events" href="#" class="menu__link inactive vibro__button">Events</a></li>
+                            <li><a data-goto=".footer" href="#" class="menu__link vibro__button">Info</a></li>
+                            <li>
+                                <a data-goto=".none" href="#" class="menu__link">tune-up</a>
+                                <span class="menu__arrow"></span>
+                                <ul class="menu__sub-list">
+                                    <li>
+                                        <a class="color__mode color-pc">
+                                            <span></span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <div class="lang">
+                                            <a href="lang.html" class="lang__button-pc">
+                                                <span></span>
+                                            </a>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </nav>
+                </nav>
+            </div>
+        </header>
+
+        <!-- main -->
+        <main class="page">
+            <section class="page__main main">
+                <div class="main__container">
+                    <div class="main__content">
+                        <h1 data-anim class="main__title translatemain">
+                            I am looking for Intern/Junior JavaScript Developer positions.<br><span>I have been learning
+                                JavaScript for more than a year and I am ready for challenges!</span>
+                        </h1>
+                        <div class="main__buttons">
+                            <a data-anim href="mailto: nikopapchenko@gmail.com" target="_blank"
+                                class="main__message-button button button__dark">
+                                <span>Do you have offer?</span>
+                            </a>
+                            <a data-anim
+                                href="https://drive.google.com/u/0/uc?id=1Vb2H3Qa920et_CQm9xvjUku9LSSnTTow&export=download"
+                                target="_blank" class="main__resume-button button button__dark">
+                                <span>Download Resume</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="main__image">
+                    </div>
+                </div>
+            </section>
+            <section class="page__about about">
+                <div class="about__container">
+                    <div class="about__content">
+                        <h2 data-anim class="about__title title translateabouttitle">Hi! My name is <span>Mykola
+                                Papchenko</span></h2>
+                        <div class="about__text">
+                            <p data-anim class="translateabouttext">
+                                I am a beginner programmer. I write in JavaScript and HTML/CSS. I also have skills in
+                                scss/sass, npm, Docker.
+                                <br>
+                                At the moment I am looking for a job in the frontend.
+                                You can see my projects on <a target="_blank"
+                                    href="https://github.com/papchenko">GitHub</a> and you can also see my profile on
+                                the <a target="_blank"
+                                    href="https://www.linkedin.com/in/mykola-papchenko-b099461b9/">LinkedIn</a>
+                                resource.
+                                <br>
+                                In the field of programming, it is important to collaborate with the developer
+                                community, to help others, and I believe that this provides an opportunity to develop
+                                your skills in programming. I am an active member of the <a target="_blank"
+                                    href="https://stackoverflow.com/users/16259994/nikopapchenko">StackOverflow</a>
+                                community, answering and asking programming questions.
+                                <br>
+                                In this blog, I share my thoughts mainly about software development.
+                            </p>
+                        </div>
+                    </div>
+                    <div data-anim class="about__image">
+                        <img src="resources/img/avatar.jpg" alt="Image">
+                    </div>
+                </div>
+            </section>
+            <section class="page__works works">
+                <div class="works__container">
+                    <h2 data-anim class="works__title title translateproducts">
+                        My <span>products</span>
+                    </h2>
+                    <div class="works__items items-works">
+                        <nav class="items-works__navigation" data-anim>
+                            <button data-work-type=""
+                                class="items-works__type button button_dark active vibro__button">All</button>
+                            <button data-work-type="web"
+                                class="items-works__type button button_dark vibro__button">Web</button>
+                            <button data-work-type="snippets"
+                                class="items-works__type button button_dark vibro__button">Snippets</button>
+                        </nav>
+                    </div>
+                    <div class="items-works__body">
+                        <a data-anim data-work-type="web" href="https://10page.vercel.app/" target="_blank"
+                            class="items-works__item">
+                            <div class="items-works__image">
+                                <img src="resources/img/products/10page.svg" alt="Image">
+                            </div>
+                        </a>
+                        <a data-anim data-work-type="snippets" href="https://github.com/papchenko/VSSnippy"
+                            target="_blank" class="items-works__item">
+                            <div class="items-works__image">
+                                <img src="resources/img/products/vssnippy.svg" alt="Image">
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- footer -->
+        <footer class="footer">
+            <div class="footer__container">
+                <nav class="footer__menu menu-footer">
+                    <ul class="menu-footer__list">
+                        <li data-anim class="menu-footer__item">
+                            <a data-goto=".main" href="#" class="menu-footer__link menu-footer__link_main">Main</a>
+                        </li>
+                        <li data-anim class="menu-footer__item">
+                            <a data-goto=".about" href="#" class="menu-footer__link menu-footer__link_about">About
+                                Me</a>
+                        </li>
+                        <li data-anim class="menu-footer__item">
+                            <a data-goto=".works" href="#"
+                                class="menu-footer__link menu-footer__link_products">Products</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div data-anim class="footer__social social">
+
+                    <a href="https://www.linkedin.com/in/mykola-papchenko-b099461b9" target="_blank"
+                        class="social__link">
+                        <img src="resources/img/icons/linkedin.svg" alt="linkedin">
+                    </a>
+                    <a href="https://github.com/papchenko" target="_blank" class="social__link">
+                        <img src="resources/img/icons/github.svg" alt="github">
+                    </a>
+                    <a href="https://stackoverflow.com/users/16259994/nikopapchenko" target="_blank"
+                        class="social__link">
+                        <img src="resources/img/icons/stackoverflow.svg" alt="stackoverflow">
+                    </a>
+                    <a href="https://www.youtube.com/channel/UC7uT3nq0eD-85a1BKLBeGOA" target="_blank"
+                        class="social__link">
+                        <img src="resources/img/icons/youtube.svg" alt="youtube">
+                    </a>
+                </div>
+            </div>
+            <div data-anim class="footer__privacy">
+                <p>Copyright &copy;
+                    <script>document.write(new Date().getFullYear());</script> All rights reserved <br> |
+                    by
+                    papchenko.com
+                </p>
+            </div>
+        </footer>
+    </div>
+
+    <script type="module" src="js/main.js"></script>
+</body>
+
+</html>
