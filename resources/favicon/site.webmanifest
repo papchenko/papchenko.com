@@ -1,19 +1,14 @@
 {
-    "name": "Papchenko Websote",
-    "short_name": "Papchenko Websote",
+    "name": "Papchenko Portfolio",
+    "short_name": "Papchenko Portfolio",
     "icons": [
         {
             "src": "/android-chrome-192x192.png",
             "sizes": "192x192",
             "type": "image/png"
-        },
-        {
-            "src": "/android-chrome-384x384.png",
-            "sizes": "384x384",
-            "type": "image/png"
         }
     ],
-    "theme_color": "#ff0000",
-    "background_color": "#ff0000",
+    "theme_color": "#ffffff",
+    "background_color": "#ffffff",
     "display": "standalone"
 }
