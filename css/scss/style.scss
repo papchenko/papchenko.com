@@ -116,11 +116,11 @@ body._color-mode {
   }
 
   .button {
-    background-color: var(--light-blue);
-  }
-
-  .button:hover {
     background-color: rgba(57, 62, 70, 0.75);
+  }
+  
+  .button:hover {
+    background-color: var(--light-blue);
   }
 
   .button_dark {

@@ -1,6 +1,6 @@
 /*
-    Animation on scroll
-    v.10
+    Animation on scroll v.1.0
+    onLoad v.1.0
 */
 "use strict";
 
@@ -25,6 +25,13 @@ function animationScroll() {
   });
 }
 
+function onLoad() {
+    window.addEventListener('load', () => {
+      document.documentElement.classList.add('on-load');
+    })
+}
+
 export {
-  animationScroll
+  animationScroll,
+  onLoad
 };

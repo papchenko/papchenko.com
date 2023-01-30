@@ -93,10 +93,10 @@ body._color-mode .title span {
   color: var(--dark-yellow);
 }
 body._color-mode .button {
-  background-color: var(--light-blue);
+  background-color: rgba(57, 62, 70, 0.75);
 }
 body._color-mode .button:hover {
-  background-color: rgba(57, 62, 70, 0.75);
+  background-color: var(--light-blue);
 }
 body._color-mode .button_dark {
   background-color: rgba(57, 62, 70, 0.75);

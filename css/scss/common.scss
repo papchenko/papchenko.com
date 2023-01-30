@@ -22,17 +22,17 @@
 .button {
   text-align: center;
   font-weight: 700;
-  font-size: 1.125rem;
-  line-height: 1.6875rem;
+  font-size: 1rem;
+  line-height: 1.3875rem;
   padding: 0.625rem 2rem;
+  background-color: rgba(57, 62, 70, 0.75);
   color: var(--light-white);
-  background-color: var(--dark-yellow);
   border-radius: 1.5rem;
   transition: background-color 0.3s ease 0s;
 }
 
 .button:hover {
-  background-color: rgba(57, 62, 70, 0.75);
+  background-color: var(--dark-yellow);
 }
 
 .button_dark {

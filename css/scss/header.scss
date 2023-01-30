@@ -33,6 +33,18 @@
   padding-bottom: 1.875rem;
 }
 
+@media (min-width: 768px) {
+  .header__container{
+      transform: translate(0px, -1.875rem);
+      opacity: 0;
+  }
+  .on-load .header__container{
+  transform: translate(0, 0);
+  opacity: 1;
+  transition: transform 1s ease, opacity 1s ease;
+  }
+}     
+
 .header__logo {
   position: relative;
   z-index: 5;
@@ -245,6 +257,7 @@ input:checked::after {
 }
 
 @media (max-width: 767.98px) {
+
   .menu__body {
     position: fixed;
     width: 100%;
@@ -269,28 +282,56 @@ input:checked::after {
   }
   // color mode
   .color__mode {
+    transform: translate(0px, -1.875rem);
+    opacity: 0;
+  }
+
+  .on-load .color__mode {
     margin: 0rem 1.875rem 0rem 0rem;
     padding-right: 1.4rem;
     padding-top: 1.7rem;
     display: block;
     background: url(../resources/img/icons/color.svg) center no-repeat;
     background-size: 1.3rem;
+
+    transform: translate(0, 0);
+    opacity: 1;
+    transition: transform 1s ease, opacity 1s ease;
   }
+  
   .lang__button {
+    transform: translate(0px, -1.875rem);
+    opacity: 0;
+  }
+  .on-load .lang__button {
     padding-right: 1.4rem;
     padding-top: 1.7rem;
     display: block;
     background: url(../resources/img/icons/language.svg) center no-repeat;
     background-size: 1.3rem;
+
+    transform: translate(0, 0);
+    opacity: 1;
+    transition: transform 1s ease, opacity 1s ease;
   }
   //
-  .icon-menu__line::before {
+
+  .on-load .icon-menu__line::before {
     content: "menu";
     font-size: 1.15rem;
     font-weight: 500;
     letter-spacing: -0.13rem;
     color: var(--light-white);
     margin: 0.35rem 0rem 0.1rem -2.7rem;
+  }
+  .icon-menu {
+    transform: translate(0px, -1.875rem);
+    opacity: 0;
+  }
+  .on-load .icon-menu {
+    transform: translate(0, 0);
+    opacity: 1;
+    transition: transform 1s ease, opacity 1.3s ease;
   }
   .icon-menu::before,
   .icon-menu::after {

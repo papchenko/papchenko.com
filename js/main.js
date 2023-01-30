@@ -12,9 +12,11 @@ import {
 colorMode();
 
 import {
-    animationScroll
-} from "./apart/animation-scrolling.js";
+    animationScroll,
+    onLoad
+} from "./apart/animation.js";
 animationScroll();
+onLoad();
 
 import {
     vibroMobile
