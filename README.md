@@ -1,2 +1,2 @@
-![img](https://raw.githubusercontent.com/papchenko/papchenko.com/5ce98320f0efbfaf96aa3574beb86a40fbfa094c/resources/img/papckenko-logo.svg)
+![img](https://raw.githubusercontent.com/papchenko/papchenko.com/6670f6b47cbc0d096499390dc084320d0afa9773/resources/img/papckenko-logo.svg)
 ### Portfolio Software Developer
