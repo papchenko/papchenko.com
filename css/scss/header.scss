@@ -263,9 +263,9 @@ input:checked::after {
 
   .menu__body {
     position: fixed;
-    width: 100%;
-    height: 45%;
-    left: 0;
+    width: 50%;
+    height: 50%;
+    left: 50%;
     top: -100%;
     transition: top 0s;
     background-color: #3d3f44;
@@ -317,7 +317,6 @@ input:checked::after {
     opacity: 1;
     transition: transform 1s ease, opacity 1s ease;
   }
-  //
 
   .on-load .icon-menu__line::before {
     content: "menu";
@@ -341,26 +340,84 @@ input:checked::after {
     content: "";
     position: absolute;
     background-color: var(--dark-yellow);
-    height: 0.11rem;
-    width: 100%;
-    left: 0;
+    height: 0.1rem;
+    width: 30%;
+    left: 15px;
     transition: all 0.3s;
     margin: 0.3rem 0rem 0.12rem -1.28rem;
   }
   .icon-menu::before {
-    top: 0;
-  }
-  .icon-menu::after {
-    bottom: 0;
+    top: -120px;
   }
   .menu-open .icon-menu::before {
     top: calc(42% - 0.0625rem);
-    transform: scale(1.05) rotate(-45deg);
+    transform: scale(2) rotate(-45deg);
   }
   .menu-open .icon-menu::after {
     bottom: calc(42% - 0.0625rem);
-    transform: scale(1.05) rotate(45deg);
+    transform: scale(2) rotate(45deg);
   }
+
+// old version
+// .menu__body {
+//   position: fixed;
+//   width: 100%;
+//   height: 45%;
+//   left: 0;
+//   top: -100%;
+//   transition: top 0s;
+//   background-color: #3d3f44;
+//   padding: 6.25rem 0.9375rem 1.25rem 0.9375rem;
+//   overflow: auto;
+//   z-index: 1;
+// }
+// 
+
+
+// .on-load .icon-menu__line::before {
+//   content: "menu";
+//   font-size: 1.15rem;
+//   font-weight: 500;
+//   letter-spacing: -0.13rem;
+//   color: var(--light-white);
+//   margin: 0.35rem 0rem 0.1rem -2.7rem;
+// }
+// .icon-menu {
+//   transform: translate(0px, -1.875rem);
+//   opacity: 0;
+// }
+// .on-load .icon-menu {
+//   transform: translate(0, 0);
+//   opacity: 1;
+//   transition: transform 1s ease, opacity 1.3s ease;
+// }
+// .icon-menu::before,
+// .icon-menu::after {
+//   content: "";
+//   position: absolute;
+//   background-color: var(--dark-yellow);
+//   height: 0.11rem;
+//   width: 100%;
+//   left: 0;
+//   transition: all 0.3s;
+//   margin: 0.3rem 0rem 0.12rem -1.28rem;
+// }
+// .icon-menu::before {
+//   top: 0;
+// }
+// .icon-menu::after {
+//   bottom: 0;
+// }
+// .menu-open .icon-menu::before {
+//   top: calc(42% - 0.0625rem);
+//   transform: scale(1.05) rotate(-45deg);
+// }
+// .menu-open .icon-menu::after {
+//   bottom: calc(42% - 0.0625rem);
+//   transform: scale(1.05) rotate(45deg);
+// }
+// old version
+
   .menu-open .icon-menu__line {
     display: none;
   }

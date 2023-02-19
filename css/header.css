@@ -265,9 +265,9 @@ input:checked::after {
 @media (max-width: 767.98px) {
   .menu__body {
     position: fixed;
-    width: 100%;
-    height: 45%;
-    left: 0;
+    width: 50%;
+    height: 50%;
+    left: 50%;
     top: -100%;
     transition: top 0s;
     background-color: #3d3f44;
@@ -336,25 +336,22 @@ input:checked::after {
     content: "";
     position: absolute;
     background-color: var(--dark-yellow);
-    height: 0.11rem;
-    width: 100%;
-    left: 0;
+    height: 0.1rem;
+    width: 30%;
+    left: 15px;
     transition: all 0.3s;
     margin: 0.3rem 0rem 0.12rem -1.28rem;
   }
   .icon-menu::before {
-    top: 0;
-  }
-  .icon-menu::after {
-    bottom: 0;
+    top: -120px;
   }
   .menu-open .icon-menu::before {
     top: calc(42% - 0.0625rem);
-    transform: scale(1.05) rotate(-45deg);
+    transform: scale(2) rotate(-45deg);
   }
   .menu-open .icon-menu::after {
     bottom: calc(42% - 0.0625rem);
-    transform: scale(1.05) rotate(45deg);
+    transform: scale(2) rotate(45deg);
   }
   .menu-open .icon-menu__line {
     display: none;

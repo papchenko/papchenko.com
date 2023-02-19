@@ -1,8 +1,8 @@
-@import url("reset.css");
-@import url("common.css");
-@import url("header.css");
-@import url("main.css");
-@import url("footer.css");
+@import url("/css/reset.css");
+@import url("/css/common.css");
+@import url("/css/header.css");
+@import url("/css/main.css");
+@import url("/css/footer.css");
 :root {
   --light-blue: #00adb5;
   --dark-blue: #4682b4;
@@ -126,12 +126,7 @@ body._color-mode .menu__link::after {
   background-color: var(--light-blue);
 }
 body._color-mode .icon-menu__line::before {
-  content: "menu";
-  font-size: 1.15rem;
-  font-weight: 500;
-  letter-spacing: -0.13rem;
   color: #121418;
-  margin: 0.35rem 0rem 0.1rem -2.7rem;
 }
 body._color-mode .color__mode {
   background: url(../resources/img/icons/color-light.svg) center no-repeat;
