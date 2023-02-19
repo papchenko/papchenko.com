@@ -116,7 +116,7 @@ body._color-mode .dark__image {
   display: none;
 }
 body._color-mode .about__text a {
-  color: var(--dark-yellow);
+  color: var(--light-green);
 }
 body._color-mode .menu-footer__link:hover {
   color: var(--dark-yellow);
