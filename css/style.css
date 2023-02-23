@@ -1,8 +1,8 @@
-@import url("reset.css");
-@import url("common.css");
-@import url("header.css");
-@import url("main.css");
-@import url("footer.css");
+@import url("/css/reset.css");
+@import url("/css/common.css");
+@import url("/css/header.css");
+@import url("/css/main.css");
+@import url("/css/footer.css");
 :root {
   --light-blue: #00adb5;
   --dark-blue: #4682b4;
