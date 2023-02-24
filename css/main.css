@@ -301,11 +301,11 @@
   height: 100%;
   -o-object-fit: contain;
   object-fit: contain;
-  transform: scale(0.9);
+  transform: scale(1);
 }
 
 .items-works__image img:hover {
-  transform: scale(1.02);
+  transform: scale(1.2);
   transition: transform 0.3s ease 0s;
 }
 
