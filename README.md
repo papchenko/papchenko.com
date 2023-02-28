@@ -13,4 +13,4 @@ In the footer of the site you can find all the social networks I use.
  JavaScript (vanilla)
  ```
 ## 
-[![N|Solid](https://raw.githubusercontent.com/papchenko/papchenko.com/cc72f2d60dde917d6c359e05197398e7b845af8c/resources/img/short-logo.svg)](http://papchenko.com/)
+[![N|Solid](https://raw.githubusercontent.com/papchenko/papchenko.com/8a93b6c69500e7ef66f2ecc0e5ba122fad3a1e0e/resources/img/short-logo.svg)](http://papchenko.com/)
