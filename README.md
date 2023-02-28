@@ -16,4 +16,4 @@ In the footer of the site you can find all the social networks I use.
 
 
 ## 
-**[my portfolio][![N|Solid](https://github.com/papchenko/papchenko.com/blob/main/resources/favicon/favicon-32x32.png?raw=true)](http://papchenko.com/)** 
+**[![N|Solid](https://github.com/papchenko/papchenko.com/blob/main/resources/favicon/favicon-32x32.png?raw=true)](http://papchenko.com/)** 
