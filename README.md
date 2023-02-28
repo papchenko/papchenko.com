@@ -16,4 +16,8 @@ In the footer of the site you can find all the social networks I use.
 
 
 ## 
+<<<<<<< HEAD
 [![N|Solid]()](http://papchenko.com/)
+=======
+[![N|Solid](https://raw.githubusercontent.com/papchenko/papchenko.com/6def54ece2142a107c9e9d66584256ccb24c87f3/resources/img/papckenko-logo.svg)](http://papchenko.com/)
+>>>>>>> 87a8180144fd49efbe1a52f653ba96b2927f8fc2
