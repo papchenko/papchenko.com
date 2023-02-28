@@ -132,10 +132,6 @@ body._color-mode .text__skills {
 body._color-mode .menu-footer__link:hover {
   color: var(--dark-yellow);
 }
-body._color-mode .menu__link::after {
-  content: "";
-  background-color: var(--light-blue);
-}
 body._color-mode .icon-menu__line::before {
   color: #121418;
 }

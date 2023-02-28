@@ -162,12 +162,7 @@ body._color-mode {
   .menu-footer__link:hover {
     color: var(--dark-yellow);
   }
-
-  .menu__link::after {
-    content: "";
-    background-color: var(--light-blue);
-  }
-
+  
   .icon-menu__line::before {
     // content: "menu";
     // font-size: 1.15rem;
