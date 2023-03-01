@@ -15,4 +15,4 @@ TV
 ```
 
 ## 
-[![N|](https://github.com/papchenko/papchenko.com/blob/main/resources/favicon/favicon-16x16.png?raw=true)](http://papchenko.com/)
+[![N|](https://github.com/papchenko/papchenko.com/blob/main/resources/favicon/favicon-32x32.png?raw=true)](http://papchenko.com/)
