@@ -78,11 +78,11 @@
 }
 
 .about__text a {
-  color: var(--light-green);
+  color: #6cb68f;
 }
 
 .text__skills {
-  color: #d28707;
+  color: #dfba7a;
   font-size: 1.25rem;
   font-weight: 500;
 }

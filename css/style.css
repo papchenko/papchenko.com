@@ -1,8 +1,8 @@
-@import url("reset.css");
-@import url("common.css");
-@import url("header.css");
-@import url("main.css");
-@import url("footer.css");
+@import url("/css/reset.css");
+@import url("/css/common.css");
+@import url("/css/header.css");
+@import url("/css/main.css");
+@import url("/css/footer.css");
 :root {
   --dark-grey: #1e2125;
   --light-white: #eeeeee;
@@ -122,10 +122,10 @@ body._color-mode .dark__image {
   display: none;
 }
 body._color-mode .about__text a {
-  color: var(--light-green);
+  color: #237c4b;
 }
 body._color-mode .text__skills {
-  color: var(--light-blue4);
+  color: #274647;
   font-size: 1.25rem;
   font-weight: 500;
 }
