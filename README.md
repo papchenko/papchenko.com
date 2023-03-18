@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-=======
-
 #### Portfolio Software Developer
 
 ```
@@ -18,4 +15,3 @@ TV
 
 ## 
 [![N|](https://github.com/papchenko/papchenko.com/blob/main/resources/favicon/favicon-32x32.png?raw=true)](http://papchenko.com/)
->>>>>>> c0edf1adb1984ca3349f7080a277c0737b781132
