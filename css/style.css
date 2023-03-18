@@ -136,7 +136,7 @@ body._color-mode .icon-menu__line::before {
   color: #121418;
 }
 body._color-mode .vibro__mobile {
-  background: url(/resources/img/icons/vibro-light.svg) center no-repeat;
+  background: url(../resources/img/icons/vibro-light.svg) center no-repeat;
   background-size: 1.42rem;
 }
 body._color-mode .color__mode {

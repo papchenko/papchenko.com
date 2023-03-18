@@ -315,7 +315,7 @@ input:checked::after {
     padding-right: 1.4rem;
     padding-top: 1.7rem;
     display: block;
-    background: url(/resources/img/icons/vibro.svg) center no-repeat;
+    background: url(../resources/img/icons/vibro.svg) center no-repeat;
     background-size: 1.42rem;
     transform: translate(0, 0);
     opacity: 1;
