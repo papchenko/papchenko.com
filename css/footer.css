@@ -75,6 +75,9 @@
     padding-top: 5.25rem;
     text-align: center;
   }
+  .menu-footer__link {
+    display: none;
+  }
 }
 @media (max-width: 479.98px) {
   .footer__privacy {
