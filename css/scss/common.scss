@@ -93,3 +93,27 @@
 .about__text a:hover {
   text-decoration: underline;
 }
+
+/* tooltip */
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+.tooltip .tooltiptext {
+  visibility: hidden;
+  background-color: rgba(0, 0, 0, 0.363);
+  color: #fff;
+  font-size: 12px;
+  text-align: center;
+  border-radius: 8px;
+  padding: 5px 0;
+  width: 220px;
+  margin-left: -98px;
+  margin-top: 3px;
+  position: absolute;
+  z-index: 1000000;
+  line-height: 1.3;
+}
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}

@@ -308,7 +308,25 @@ input:checked::after {
     opacity: 1;
     transition: transform 1s ease, opacity 1s ease;
   }
-  
+  // vibro mode
+  .vibro__mobile {
+    transform: translate(0px, -1.875rem);
+    opacity: 0;
+  }
+
+  .on-load .vibro__mobile {
+    margin: 0rem 0rem 0rem 0rem;
+    padding-right: 1.4rem;
+    padding-top: 1.7rem;
+    display: block;
+    background: url(/resources/img/icons/vibro.svg) center no-repeat;
+    background-size: 1.42rem;
+
+    transform: translate(0, 0);
+    opacity: 1;
+    transition: transform 1s ease, opacity 1s ease;
+  }
+  // lang mode
   .lang__button {
     transform: translate(0px, -1.875rem);
     opacity: 0;
