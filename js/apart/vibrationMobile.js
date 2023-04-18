@@ -1,8 +1,9 @@
-// /*
-//     vibro for mobile device
-//     v 1.0
-// */
-// 'use strict'
+/*
+    vibro for mobile device
+    v 1.0
+*/
+
+'use strict'
 
 
 function vibroMobile() {
